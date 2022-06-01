@@ -107,6 +107,7 @@ document.getElementById('book-form').addEventListener('submit',function(e){
         // instantiate a ui
         const ui = new UI();
     
+    
         if(title==='' || author==='' || isbn ===''){
             ui.showAlert('Please fill in all the details','error');
     
